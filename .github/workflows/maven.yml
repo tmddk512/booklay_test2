@@ -56,4 +56,4 @@ jobs:
         port: ${{ secrets.SSH_PORT }}
         passphrase: ${{ secrets.PASSPHRASE }}
         script_stop: true
-        script: "./startup.sh
+        script: "./startup.sh"
